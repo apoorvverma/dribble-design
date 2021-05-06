@@ -1,8 +1,40 @@
-import 'tailwindcss/tailwind.css'
+import Nav from "../components/navbar";
+import Main from "../components/main";
+import Footer from "../components/footer";
+import Tile from "../components/tile"
 
-export default (Home) => {
+const Home = () => {
   return (
-    <h1 className="hover:bg-red-700 font-bold">Hello everyone!</h1>
+    <div>
+      <Nav/>
+      <Main/>
+      <Tile/>
+      <Footer/>
+    </div>
   )
   
 }
+
+export default Home;
+
+/*Navbar **done
+
+MainIntro **done
+
+Buttons **done
+
+Basic tile  
+
+Hover tiles
+
+Features I
+
+Features II
+
+Features III
+
+Features IV
+
+Newsletter  **done
+
+*/

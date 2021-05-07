@@ -2,6 +2,7 @@ import Nav from "../components/navbar";
 import Main from "../components/main";
 import Footer from "../components/footer";
 import Tile from "../components/tile"
+import Features from "../components/features";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Nav/>
       <Main/>
       <Tile/>
+      <Features/>
       <Footer/>
     </div>
   )
